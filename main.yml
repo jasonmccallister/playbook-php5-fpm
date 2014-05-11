@@ -17,7 +17,6 @@
       - php5-cli
       - php5-fpm
       - php5-mysql
-      - php5-psql
       - php5-curl
       - php5-gd
       - php5-gmp
