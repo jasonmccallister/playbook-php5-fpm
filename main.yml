@@ -6,7 +6,7 @@
   tasks:
 
   - name: Add PHP 5 PPA
-    apt: repo='ppa:ondrej/php5'
+    apt_repository: repo='ppa:ondrej/php5' state=present
 
   - name: Update apt-key
     shell: apt-key update
